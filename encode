@@ -1,0 +1,4 @@
+./ioncube_encoder.sh \
+  --copy "@/*/" \
+  --encode /home/dipak/www/example-app/app/Http/Controllers/ \
+  /home/dipak/www/example-app/ -o /home/dipak/www/example-app-encoded --replace-target
