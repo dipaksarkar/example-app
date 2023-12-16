@@ -1,4 +1,5 @@
-./ioncube_encoder.sh \
+/home/dipak/Downloads/ioncube_encoder5_basic_13.0/ioncube_encoder.sh \
   --copy "@/*/" \
   --encode /home/dipak/www/example-app/app/Http/Controllers/ \
+  --encode /home/dipak/www/example-app/app/laravel-core-source/src/Providers/ \
   /home/dipak/www/example-app/ -o /home/dipak/www/example-app-encoded --replace-target
